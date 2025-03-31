@@ -12,6 +12,15 @@ int main() {
          printf("Direita \n");
      }
 
+     // Implementação de Movimentação do Bispo
+
+    printf("\nMovimentação do Bispo: \n");
+    int bispoMovimento = 5;
+    int i = 0;
+    while (i < bispoMovimento) {
+        printf("Cima, Direita \n");
+        i++;
+    }
 
     return 0;
 
