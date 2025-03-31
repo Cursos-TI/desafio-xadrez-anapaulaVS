@@ -2,9 +2,15 @@
 
 int main() {
 
-    printf("DESAFIO XADREZ - NOVATO!\n");
+    printf("DESAFIO XADREZ - NOVATO! \n");
 
-    // Declaração das variáveis para armazenar os dados do Jogo
+     // Implementação de Movimentação da Torre
+
+     printf("Movimentação da Torre: \n");
+     int torreMovimento = 5;
+     for (int i = 0; i < torreMovimento; i++) {
+         printf("Direita \n");
+     }
 
 
     return 0;
