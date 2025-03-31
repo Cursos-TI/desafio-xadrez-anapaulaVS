@@ -4,13 +4,23 @@ int main() {
 
     printf("DESAFIO XADREZ - AVENTUREIRO! \n");
 
-     // Implementação de Movimentação da Torre
+    // Implementação de Movimentação da Torre
 
-     printf("Movimentação da Torre: \n");
-     int torreMovimento = 5;
-     for (int i = 0; i < torreMovimento; i++) {
+    printf("Movimentação da Torre: \n");
+    int torreMovimento = 5;
+    for (int i = 0; i < torreMovimento; i++) {
          printf("Direita \n");
-     }
+    }
+
+    // Implementação de Movimentação do Bispo 
+
+    printf("\nMovimentação do Bispo: \n");
+    int bispoMovimento = 5;
+    int i = 0;
+    while (i < bispoMovimento) {
+        printf("Cima, Direita \n");
+        i++;
+    }
 
      
 
