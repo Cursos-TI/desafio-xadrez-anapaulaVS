@@ -31,6 +31,20 @@ int main() {
         printf("Esquerda \n");
         j++;
     } while (j < rainhaMovimento);
+
+    // Implementação de Movimentação do Cavalo
+
+    printf("\n\nMovimentação do Cavalo: \n");
+    int cavaloMovimentoVertical = 2;
+    int cavaloMovimentoHorizontal = 1;
+    for (int k = 0; k < cavaloMovimentoVertical; k++) {
+        printf("Baixo \n");
+    }
+    int l = 0;
+    while (l < cavaloMovimentoHorizontal) {
+        printf("Esquerda \n");
+        l++;
+    }
      
 
     return 0;
