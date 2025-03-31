@@ -22,6 +22,16 @@ int main() {
         i++;
     }
 
+     // Implementação de Movimentação da Rainha
+
+     printf("\nMovimentação da Rainha: \n");
+     int rainhaMovimento = 8;
+     int j = 0;
+     do {
+         printf("Esquerda \n");
+         j++;
+     } while (j < rainhaMovimento);
+
     return 0;
 
 }
