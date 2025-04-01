@@ -48,6 +48,16 @@ int main() {
     int torreMovimentoTotal = 5;
     torreMovimento(torreMovimentoTotal);
 
+     // Implementação de Movimentação do Bispo
+
+     printf("\nMovimentação do Bispo:\n");
+     int bispoMovimentoTotal = 5;
+     bispoMovimento(bispoMovimentoTotal);
+     printf("\nMovimentação do Bispo com Loops Aninhados:\n");
+     int bispoMovimentoVertical = 2;
+     int bispoMovimentoHorizontal = 3;
+     bispoMovimentoAninhado(bispoMovimentoVertical, bispoMovimentoHorizontal);
+
     return 0;
     
 }
