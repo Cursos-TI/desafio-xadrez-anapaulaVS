@@ -42,6 +42,12 @@ int main() {
 
     printf("DESAFIO XADREZ - MESTRE! \n");
 
+    // Implementação de Movimentação da Torre
+
+    printf("Movimentação da Torre:\n");
+    int torreMovimentoTotal = 5;
+    torreMovimento(torreMovimentoTotal);
+
     return 0;
     
 }
