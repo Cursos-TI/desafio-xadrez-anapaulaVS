@@ -58,6 +58,12 @@ int main() {
      int bispoMovimentoHorizontal = 3;
      bispoMovimentoAninhado(bispoMovimentoVertical, bispoMovimentoHorizontal);
 
+     // Implementação de Movimentação da Rainha
+
+    printf("\nMovimentação da Rainha:\n");
+    int rainhaMovimentoTotal = 8;
+    rainhaMovimento(rainhaMovimentoTotal);
+
     return 0;
     
 }
