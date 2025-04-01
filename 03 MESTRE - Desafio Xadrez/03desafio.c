@@ -29,6 +29,15 @@ void bispoMovimentoAninhado(int movimentoVertical, int movimentoHorizontal) {
     }
 }
 
+// Função recursiva para simular o movimento da Rainha
+
+void rainhaMovimento(int movimento) {
+    if (movimento > 0) {
+        printf("Esquerda\n");
+        rainhaMovimento(movimento - 1);
+    }
+}
+
 int main() {
 
     printf("DESAFIO XADREZ - MESTRE! \n");
