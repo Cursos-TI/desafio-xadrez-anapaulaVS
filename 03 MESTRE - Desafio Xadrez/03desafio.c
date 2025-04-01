@@ -18,6 +18,17 @@ void bispoMovimento(int movimento) {
     }
 }
 
+// Implementação de Movimentação do Bispo com Loops Aninhados
+
+void bispoMovimentoAninhado(int movimentoVertical, int movimentoHorizontal) {
+    for (int i = 0; i < movimentoVertical; i++) {
+        for (int j = 0; j < movimentoHorizontal; j++) {
+            printf("Cima, Direita\n");
+        }
+        printf("\n");
+    }
+}
+
 int main() {
 
     printf("DESAFIO XADREZ - MESTRE! \n");
