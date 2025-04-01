@@ -9,6 +9,15 @@ void torreMovimento(int movimento) {
     }
 }
 
+// Função recursiva para simular o movimento do Bispo
+
+void bispoMovimento(int movimento) {
+    if (movimento > 0) {
+        printf("Cima, Direita\n");
+        bispoMovimento(movimento - 1);
+    }
+}
+
 int main() {
 
     printf("DESAFIO XADREZ - MESTRE! \n");
